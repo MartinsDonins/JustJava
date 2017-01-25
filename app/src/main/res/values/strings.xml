@@ -1,3 +1,30 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Just Java</string>
+
+    <string name="toppings">Toppings</string>
+    <string name="whipped_cream">Whipped cream</string>
+
+    <string name="add_whipped_cream">Add Whipped Cream? <xliff:g example="true" id="true">%addWhippedCream</xliff:g></string>
+
+
+    <string name="thank_you">Thank You!</string>
+    <!--
+          Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+          user's name. [CHAR LIMIT=NONE]
+        -->
+    <string name="order_summary_name">Name: <xliff:g example="Amy" id="name">%name</xliff:g></string>
+    <string name="order_summary">Order Summary</string>
+    <string name="order">Order</string>
+    <string name="name">Name:  </string>
+    <string name="chocolate">Chocolate</string>
+    <string name="add_chocolate">Add Chocolate? <xliff:g example="true" id="true">%s</xliff:g></string>
+    <string name="quantity">Quantity</string>
+    <string name="toastDown">The order can not be less than 0!</string>
+    <string name="toastUp">The order can not be more than 100!</string>
+
+    <string name="total">Total: € <xliff:g example="€10" id="total">%s</xliff:g></string>
+    <string name="subject"><xliff:g example="Amy" id="subject">%s</xliff:g>: Just Java pasūtījums</string>
+
+
 </resources>
